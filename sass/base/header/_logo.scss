@@ -1,17 +1,37 @@
-.logo-Wed {
-    font-family: var(--font-releway);
-    color: var(--logo-color-blue-blue);
-    font-weight: var(--font-weight700);
-    font-size: var(--font-size26);
-    line-height: 1.19;
-    letter-spacing: 0.03em;
+// .logo-Wed {
+//     font-family: var(--font-releway);
+//     color: var(--logo-color-blue-blue);
+//     font-weight: var(--font-weight700);
+//     font-size: var(--font-size26);
+//     line-height: 1.19;
+//     letter-spacing: 0.03em;
+// }
+
+// .logo-Studio {
+//     font-family: var(--font-releway);
+//     color: var(--border-top-color);
+//     font-weight: var(--font-weight700);
+//     font-size: var(--font-size26);
+//     line-height: 1.19;
+//     letter-spacing: 0.03em;
+// }
+.logo {
+    color: #000000;
 }
 
-.logo-Studio {
-    font-family: var(--font-releway);
-    color: var(--border-top-color);
-    font-weight: var(--font-weight700);
-    font-size: var(--font-size26);
-    line-height: 1.19;
-    letter-spacing: 0.03em;
+.logo--color {
+    color: #2196F3;
+}
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.17;
+    text-decoration: none;
+    color: #000000;
+    // margin-right: 93px;
+
+    @media screen and (min-width: 768px) {
+        font-size: 26px;
+    }
 }
