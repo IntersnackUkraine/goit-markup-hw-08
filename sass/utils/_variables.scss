@@ -1,0 +1,52 @@
+:root {
+  /*===background-color================================ */
+  --main-header-background-size: #ffffff;
+  --main-background-section-one: #2F303A;
+  --main-background-section-two: #E5E5E5;
+  --main-background-section-button: #F5F4FA;
+  --main-background-hooter-color: #2F303A;
+  /*===font color===================================== */
+  --logo-color-blue-blue: #2196F3;
+  --primary-text-color: #757575;
+  --border-top-color: #212121;
+  /*===homepage button color===========================*/
+  --homepage-button-color: #188CE8;
+  /*===font============================================*/
+  --font-family: 'Roboto';
+  --font-releway: 'Raleway';
+  --font-style: normal;
+  --font-weight700: 700;
+  --font-weight500: 500;
+  --font-weight400: 400;
+  --font-size14: 14px;
+  --font-size26: 26px;
+  --font-size36: 36px;
+  ---font-size14: 14px;
+  --shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+  --transition-duration: 250ms;
+  --transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+// .flex {
+//   display: flex;
+//   align-items: center;
+// }
+
+.container {
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  min-width: 320px;
+
+  @media screen and (min-width: 480px) {
+    width: 480px;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 768px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 1200px;
+  }
+}

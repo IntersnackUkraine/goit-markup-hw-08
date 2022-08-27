@@ -1,0 +1,25 @@
+.business-button {
+  background-color: var(--logo-color-blue-blue);
+  font-family: var(--font-roboto);
+  color: var(--main-header-background-size);
+  font-weight: var(--font-weight700);
+  font-style: var(--font-style);
+  border: none;
+  min-width: 50px;
+  padding: 10px 32px;
+  border-radius: 4px;
+  cursor: pointer;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  margin: auto;
+  margin-top: 50px;
+  transition: var(--transition-timing-function);
+  transition: var(--transition-duration);
+    &:hover,
+    &:focus {
+      background-color: var(--homepage-button-color);
+    }
+}

@@ -1,0 +1,46 @@
+body {
+    box-sizing: initial;
+    background-color: var(--main-header-background-size);
+    color: var(--border-top-color);
+    font-family: var(--font-family);
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0;
+}
+
+button {
+
+    cursor: pointer;
+}
+
+body:focus {
+    transition: var(--transition-dur-and-func);
+}
+a {
+    text-decoration: none;
+    font-style: normal;
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}

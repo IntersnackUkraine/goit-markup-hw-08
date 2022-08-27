@@ -1,0 +1,212 @@
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  text-decoration: none;
+  display: flex;
+  margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
+.mailto {
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+
+.smartphone:hover,
+.smartphone:focus {
+  fill: var(--logo-color-blue-blue);
+}
+
+.mailto-menu__smart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary-text-color);
+  margin-right: 10px;
+}
+.mailto-menu__smart:hover, .mailto-menu__smart:focus {
+  fill: var(--logo-color-blue-blue);
+}
+
+.list-mp {
+  list-style: none;
+  display: flex;
+}
+
+.tel {
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+
+.menu:not(:last-child) {
+  margin-right: 30px;
+}
+
+.list:not(:last-child) {
+  margin-right: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .menu__item {
+    position: relative;
+    display: inline-block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    font-size: 14px;
+    color: var(--border-top-color);
+    font-weight: 500;
+    line-height: 1.1721;
+    letter-spacing: 0.02em;
+    transition: var(--transition-timing-function);
+    transition: var(--transition-duration);
+  }
+  .menu__item:hover, .menu__item:focus {
+    color: var(--logo-color-blue-blue);
+  }
+  .menu__item {
+    position: relative;
+    display: inline-block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    font-size: 14px;
+    color: var(--border-top-color);
+    font-weight: 500;
+    line-height: 1.1721;
+    letter-spacing: 0.02em;
+    transition: var(--transition-timing-function);
+    transition: var(--transition-duration);
+  }
+  .menu__item:hover, .menu__item:focus {
+    color: var(--logo-color-blue-blue);
+  }
+  .menu__item::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    bottom: -1px;
+    border-radius: 2px;
+    background-color: rgba(0, 0, 0, 0);
+    transition: var(--transition-timing-function);
+    transition: var(--transition-duration);
+  }
+  .menu__item:hover::after,
+.menu__item:focus::after {
+    background-color: var(--logo-color-blue-blue);
+  }
+  .mailto-menu {
+    display: flex;
+    align-items: center;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+    transition: var(--transition-timing-function);
+    transition: var(--transition-duration);
+  }
+  .mailto-menu:hover, .mailto-menu:focus {
+    color: var(--logo-color-blue-blue);
+  }
+  .icon-envelope {
+    fill: #757575;
+    transition: var(--transition-timing-function);
+    transition: var(--transition-duration);
+  }
+  .icon-smartphone {
+    fill: #757575;
+    transition: var(--transition-timing-function);
+    transition: var(--transition-duration);
+  }
+  .mailto-menu:hover .icon-envelope,
+.mailto-menu:focus .icon-envelope {
+    fill: var(--logo-color-blue-blue);
+  }
+  .mailto-menu:hover .icon-smartphone,
+.mailto-menu:focus .icon-smartphone {
+    fill: var(--logo-color-blue-blue);
+  }
+  .menu__current {
+    color: var(--logo-color-blue-blue);
+    position: relative;
+    transition-property: color;
+  }
+  .menu__current:hover, .menu__current:focus {
+    color: var(--logo-color-blue-blue);
+  }
+  .menu__current::after {
+    background-color: var(--logo-color-blue-blue);
+  }
+}
+.borhed {
+  border-bottom: solid 1px #EEEEEE;
+}
+
+.logo-Wed {
+  font-family: var(--font-releway);
+  color: var(--logo-color-blue-blue);
+  font-weight: var(--font-weight700);
+  font-size: var(--font-size26);
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.logo-Studio {
+  font-family: var(--font-releway);
+  color: var(--border-top-color);
+  font-weight: var(--font-weight700);
+  font-size: var(--font-size26);
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+body {
+  box-sizing: initial;
+  background-color: var(--main-header-background-size);
+  color: var(--border-top-color);
+  font-family: var(--font-family);
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+body:focus {
+  transition: var(--transition-dur-and-func);
+}
+
+a {
+  text-decoration: none;
+  font-style: normal;
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}/*# sourceMappingURL=base-hed.css.map */

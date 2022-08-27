@@ -1,0 +1,25 @@
+.list {
+    list-style: none;
+    text-decoration: none;
+    font-family: inherit;
+    display: flex;
+}
+
+@media screen and (max-width: 768px) {
+    .list {
+        display: none;
+    }
+}
+
+// .container {
+//     padding-left: 15px;
+//     padding-right: 15px;
+// }
+
+// @media screen and (min-width: 480px) {
+//     .container {
+//         width: 480px;
+//         margin: auto;
+//         // background-color: aquamarine;
+//     }
+// }
