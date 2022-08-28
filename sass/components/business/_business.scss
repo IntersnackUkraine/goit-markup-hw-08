@@ -4,14 +4,44 @@
   min-height: 400px;
   margin: auto;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url(../images/imgoverlay.jpg);
+  url(../images/imgoverlay.jpg);
   background-size: cover;
   padding-top: 200px;
   padding-bottom: 200px;
   background-repeat: no-repeat;
   background-position: center;
+
+    @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+      background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/foto/geroi/320/headerimg-min.jpg);
+    }
   
-}
+    @media screen and (min-width: 768px) {
+      background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/foto/geroi/768/headerimg-min.jpg);
+  
+      @media screen and (min-device-pixel-ratio: 2),
+      screen and (min-resolution: 192dpi),
+      screen and (min-resolution: 2dppx) {
+        background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/foto/geroi/768/headerimg@2x-min.jpg);
+      }
+    }
+  
+    @media screen and (min-width: 1200px) {
+      min-height: 600px;
+      background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/foto/geroi/1200/img-min.jpg);
+  
+      @media screen and (min-device-pixel-ratio: 2),
+      screen and (min-resolution: 192dpi),
+      screen and (min-resolution: 2dppx) {
+        background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/foto/geroi1200/img@2x-min.jpg@2x.jpg);
+      }
+    }
+  }
+
+
+
+
 
 
 .business-title {
@@ -24,7 +54,7 @@
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--main-header-background-size);
-    @media screen and (min-width: 480px) {
+    @media screen and (min-width: 370px) {
         width: 370px;
         font-size: 26px;
         line-height: 1.36;

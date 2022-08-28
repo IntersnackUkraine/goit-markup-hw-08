@@ -18,12 +18,12 @@
     align-items: center;
     justify-content: space-between;
 }
-
-// .page-header {
-//     padding-top: 14px;
-//     padding-bottom: 14px;
-// }
-
+@media screen and (max-width: 767px){
+.page-header {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+}
 .mobile-menu-open {
     background-color: transparent;
     border: none;

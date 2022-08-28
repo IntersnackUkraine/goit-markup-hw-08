@@ -82,22 +82,6 @@
   .menu__item:hover, .menu__item:focus {
     color: var(--logo-color-blue-blue);
   }
-  .menu__item {
-    position: relative;
-    display: inline-block;
-    padding-top: 32px;
-    padding-bottom: 32px;
-    font-size: 14px;
-    color: var(--border-top-color);
-    font-weight: 500;
-    line-height: 1.1721;
-    letter-spacing: 0.02em;
-    transition: var(--transition-timing-function);
-    transition: var(--transition-duration);
-  }
-  .menu__item:hover, .menu__item:focus {
-    color: var(--logo-color-blue-blue);
-  }
   .menu__item::after {
     content: "";
     display: block;
@@ -157,12 +141,12 @@
   }
 }
 @media screen and (min-width: 768px) {
-  .menu__current {
+  .menu__tab {
     margin-left: 88px;
   }
 }
 @media screen and (min-width: 1200px) {
-  .menu__current {
+  .menu__tab {
     margin-left: 93px;
   }
 }

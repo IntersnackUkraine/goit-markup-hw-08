@@ -35,10 +35,12 @@
 
           <ul class="list mob_list">
             <li class="menu">
-              <a class="menu__item menu__current" href="./index.html">Студия</a>
+              <a class="menu__item menu__tab" href="./index.html">Студия</a>
             </li>
             <li class="menu">
-              <a class="menu__item" href="./portfolio.html">Портфолио</a>
+              <a class="menu__item menu__current" href="./portfolio.html"
+                >Портфоліо</a
+              >
             </li>
             <li class="menu">
               <a class="menu__item" href=" ">Контакты</a>
@@ -96,12 +98,12 @@
                   <a
                     href="./index.html"
                     class="modile-menu__link modile-menu__active"
-                    >Студия</a
+                    >Студія</a
                   >
                 </li>
                 <li class="modile-menu__item">
                   <a href="./portfolio.html" class="modile-menu__link"
-                    >Портфолио</a
+                    >Портфоліо</a
                   >
                 </li>
                 <li class="modile-menu__item">
@@ -147,13 +149,13 @@
           <h1 class="visually-hidden">Наши проекты</h1>
           <ul class="filter__list">
             <li class="filer__items">
-              <button type="button" class="filter__button">Все</button>
+              <button type="button" class="filter__button">Усі</button>
             </li>
             <li class="filer__items">
-              <button type="button" class="filter__button">Веб-сайты</button>
+              <button type="button" class="filter__button">Веб-сайти</button>
             </li>
             <li class="filer__items">
-              <button type="button" class="filter__button">Приложения</button>
+              <button type="button" class="filter__button">Додатки</button>
             </li>
             <li class="filer__items">
               <button type="button" class="filter__button">Дизайн</button>
@@ -166,23 +168,40 @@
             <li class="portfolio__item">
               <a href="" class="portfolio__link">
                 <div class="portfolio__thumb">
-                  <img
-                    srcset="
-                      ./images/portfolio/website1.jpg    1x,
-                      ./images/portfolio/website1@2x.jpg 2x
-                    "
-                    src="./images/portfolio/website1.jpg"
-                    alt="Картинка веб-сайта Технокряк"
-                    width="450"
-                    height="294"
-                    class="portfolio__img"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/foto/portfolio/project1/1200/img-min.jpg    1x,
+                        ./images/foto/portfolio/project1/1200/img@2x-min.jpg 2x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/foto/portfolio/project1/768/img-min.jpg    1x,
+                        ./images/foto/portfolio/project1/768/img@2x-min.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/foto/portfolio/project1/320/img-min.jpg    1x,
+                        ./images/foto/portfolio/project1/320/img@2x-min.jpg 2x
+                      "
+                      media="(max-width: 767px)"
+                    />
+                    <img
+                      src="../images/foto/portfolio/project1/320/img-min.jpg"
+                      alt="Технокряк"
+                    />
+                  </picture>
+
                   <div class="portfolio__movein">
                     <p>
-                      Технокряк это современная площадка распространения
-                      коронавируса. Компании используют эту платформу для
-                      цифрового шпионажа и атак на защищённые сервера
-                      конкурентов.
+                      Ресурс пропонує комплексні пропозиції з різним рівнем
+                      функціоналу та сервісів. Все це дозволить відвідувачу
+                      отримати вичерпні відомості про компанію чи приватну
+                      особу.
                     </p>
                   </div>
                 </div>
@@ -195,23 +214,40 @@
             <li class="portfolio__item">
               <a href="" class="portfolio__link">
                 <div class="portfolio__thumb">
-                  <img
-                    srcset="
-                      ../images/portfolio/design2.jpg   1x,
-                      ./images/portfolio/design2@2x.jpg 2x
-                    "
-                    src="./images/portfolio/design2.jpg"
-                    alt="Постер New Orlean vs Golden Star"
-                    width="450"
-                    height="294"
-                    class="portfolio__img"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/foto/portfolio/project2/1200/img-min.jpg    1x,
+                        ./images/foto/portfolio/project2/1200/img@2x-min.jpg 2x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/foto/portfolio/project2/768/img-min.jpg    1x,
+                        ./images/foto/portfolio/project2/768/img@2x-min.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/foto/portfolio/project2/320/img-min.jpg    1x,
+                        ./images/foto/portfolio/project2/320/img@2x-min.jpg 2x
+                      "
+                      media="(max-width: 767px)"
+                    />
+                    <img
+                      src="../images/foto/portfolio/project2/320/img-min.jpg"
+                      alt="Постер"
+                    />
+                  </picture>
+
                   <div class="portfolio__movein">
                     <p>
-                      Технокряк это современная площадка распространения
-                      коронавируса. Компании используют эту платформу для
-                      цифрового шпионажа и атак на защищённые сервера
-                      конкурентов.
+                      Ресурс пропонує комплексні пропозиції з різним рівнем
+                      функціоналу та сервісів. Все це дозволить відвідувачу
+                      отримати вичерпні відомості про компанію чи приватну
+                      особу.
                     </p>
                   </div>
                 </div>
@@ -226,52 +262,84 @@
             <li class="portfolio__item">
               <a href="" class="portfolio__link">
                 <div class="portfolio__thumb">
-                  <img
-                    srcset="
-                      ./images/portfolio/appendix3.jpg    1x,
-                      ./images/portfolio/appendix3@2x.jpg 2x
-                    "
-                    src="./images/portfolio/appendix3.jpg"
-                    alt="Картинка приложения ресторана Seafood"
-                    width="450"
-                    height="294"
-                    class="portfolio__img"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/foto/portfolio/project3/1200/img-min.jpg    1x,
+                        ./images/foto/portfolio/project3/1200/img@2x-min.jpg 2x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/foto/portfolio/project3/768/img-min.jpg    1x,
+                        ./images/foto/portfolio/project3/768/img@2x-min.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/foto/portfolio/project3/320/img-min.jpg    1x,
+                        ./images/foto/portfolio/project3/320/img@2x-min.jpg 2x
+                      "
+                      media="(max-width: 767px)"
+                    />
+                    <img
+                      src="../images/foto/portfolio/project3/320/img-min.jpg"
+                      alt="Ресторан"
+                    />
+                  </picture>
                   <div class="portfolio__movein">
                     <p>
-                      Технокряк это современная площадка распространения
-                      коронавируса. Компании используют эту платформу для
-                      цифрового шпионажа и атак на защищённые сервера
-                      конкурентов.
+                      Ресурс пропонує комплексні пропозиції з різним рівнем
+                      функціоналу та сервісів. Все це дозволить відвідувачу
+                      отримати вичерпні відомості про компанію чи приватну
+                      особу.
                     </p>
                   </div>
                 </div>
                 <div class="portfolio__cont">
                   <h2 class="portfolio__title">Ресторан Seafood</h2>
-                  <p class="portfolio__text">Приложение</p>
+                  <p class="portfolio__text">Додаток</p>
                 </div>
               </a>
             </li>
             <li class="portfolio__item">
               <a href="" class="portfolio__link">
                 <div class="portfolio__thumb">
-                  <img
-                    srcset="
-                      ./images/portfolio/marketing8.jpg    1x,
-                      ./images/portfolio/marketing8@2x.jpg 2x
-                    "
-                    src="./images/portfolio/marketing8.jpg"
-                    alt="Картинка проекта Prime"
-                    width="450"
-                    height="294"
-                    class="portfolio__img"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/foto/portfolio/project4/1200/img-min.jpg    1x,
+                        ./images/foto/portfolio/project4/1200/img@2x-min.jpg 2x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/foto/portfolio/project4/768/img-min.jpg    1x,
+                        ./images/foto/portfolio/project4/768/img@2x-min.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/foto/portfolio/project4/320/img-min.jpg    1x,
+                        ./images/foto/portfolio/project4/320/img@2x-min.jpg 2x
+                      "
+                      media="(max-width: 767px)"
+                    />
+                    <img
+                      src="../images/foto/portfolio/project4/320/img-min.jpg"
+                      alt="Проєкт"
+                    />
+                  </picture>
                   <div class="portfolio__movein">
                     <p>
-                      Технокряк это современная площадка распространения
-                      коронавируса. Компании используют эту платформу для
-                      цифрового шпионажа и атак на защищённые сервера
-                      конкурентов.
+                      Ресурс пропонує комплексні пропозиції з різним рівнем
+                      функціоналу та сервісів. Все це дозволить відвідувачу
+                      отримати вичерпні відомості про компанію чи приватну
+                      особу.
                     </p>
                   </div>
                 </div>
@@ -284,23 +352,39 @@
             <li class="portfolio__item">
               <a href="" class="portfolio__link">
                 <div class="portfolio__thumb">
-                  <img
-                    srcset="
-                      ./images/portfolio/boxes5.jpg    1x,
-                      ./images/portfolio/boxes5@2x.jpg 2x
-                    "
-                    src="./images/portfolio/boxes5.jpg"
-                    alt="Картинка проекта Boxes"
-                    width="450"
-                    height="294"
-                    class="portfolio__img"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/foto/portfolio/project5/1200/img-min.jpg    1x,
+                        ./images/foto/portfolio/project5/1200/img@2x-min.jpg 2x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/foto/portfolio/project5/768/img-min.jpg    1x,
+                        ./images/foto/portfolio/project5/768/img@2x-min.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/foto/portfolio/project5/320/img-min.jpg    1x,
+                        ./images/foto/portfolio/project5/320/img@2x-min.jpg 2x
+                      "
+                      media="(max-width: 767px)"
+                    />
+                    <img
+                      src="../images/foto/portfolio/project5/320/img-min.jpg"
+                      alt="Проєкт"
+                    />
+                  </picture>
                   <div class="portfolio__movein">
                     <p>
-                      Технокряк это современная площадка распространения
-                      коронавируса. Компании используют эту платформу для
-                      цифрового шпионажа и атак на защищённые сервера
-                      конкурентов.
+                      Ресурс пропонує комплексні пропозиції з різним рівнем
+                      функціоналу та сервісів. Все це дозволить відвідувачу
+                      отримати вичерпні відомості про компанію чи приватну
+                      особу.
                     </p>
                   </div>
                 </div>
@@ -313,23 +397,39 @@
             <li class="portfolio__item">
               <a href="" class="portfolio__link">
                 <div class="portfolio__thumb">
-                  <img
-                    srcset="
-                      ./images/portfolio/website2.jpg    1x,
-                      ./images/portfolio/website2@2x.jpg 2x
-                    "
-                    src="./images/portfolio/website2.jpg"
-                    alt="Картинка веб-сайта"
-                    width="450"
-                    height="294"
-                    class="portfolio__img"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/foto/portfolio/project6/1200/img-min.jpg    1x,
+                        ./images/foto/portfolio/project6/1200/img@2x-min.jpg 2x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/foto/portfolio/project6/768/img-min.jpg    1x,
+                        ./images/foto/portfolio/project6/768/img@2x-min.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/foto/portfolio/project6/320/img-min.jpg    1x,
+                        ./images/foto/portfolio/project6/320/img@2x-min.jpg 2x
+                      "
+                      media="(max-width: 767px)"
+                    />
+                    <img
+                      src="../images/foto/portfolio/project6/320/img-min.jpg"
+                      alt="Проєкт"
+                    />
+                  </picture>
                   <div class="portfolio__movein">
                     <p>
-                      Технокряк это современная площадка распространения
-                      коронавируса. Компании используют эту платформу для
-                      цифрового шпионажа и атак на защищённые сервера
-                      конкурентов.
+                      Ресурс пропонує комплексні пропозиції з різним рівнем
+                      функціоналу та сервісів. Все це дозволить відвідувачу
+                      отримати вичерпні відомості про компанію чи приватну
+                      особу.
                     </p>
                   </div>
                 </div>
@@ -342,23 +442,39 @@
             <li class="portfolio__item">
               <a href="" class="portfolio__link">
                 <div class="portfolio__thumb">
-                  <img
-                    srcset="
-                      ./images/portfolio/design27.jpg    1x,
-                      ./images/portfolio/design27@2x.jpg 2x
-                    "
-                    src="./images/portfolio/design27.jpg"
-                    alt="Картинка с книгой"
-                    width="450"
-                    height="294"
-                    class="portfolio__img"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/foto/portfolio/project7/1200/img-min.jpg    1x,
+                        ./images/foto/portfolio/project7/1200/img@2x-min.jpg 2x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/foto/portfolio/project7/768/img-min.jpg    1x,
+                        ./images/foto/portfolio/project7/768/img@2x-min.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/foto/portfolio/project7/320/img-min.jpg    1x,
+                        ./images/foto/portfolio/project7/320/img@2x-min.jpg 2x
+                      "
+                      media="(max-width: 767px)"
+                    />
+                    <img
+                      src="../images/foto/portfolio/project7/320/img-min.jpg"
+                      alt="Видання"
+                    />
+                  </picture>
                   <div class="portfolio__movein">
                     <p>
-                      Технокряк это современная площадка распространения
-                      коронавируса. Компании используют эту платформу для
-                      цифрового шпионажа и атак на защищённые сервера
-                      конкурентов.
+                      Ресурс пропонує комплексні пропозиції з різним рівнем
+                      функціоналу та сервісів. Все це дозволить відвідувачу
+                      отримати вичерпні відомості про компанію чи приватну
+                      особу.
                     </p>
                   </div>
                 </div>
@@ -371,23 +487,39 @@
             <li class="portfolio__item">
               <a href="" class="portfolio__link">
                 <div class="portfolio__thumb">
-                  <img
-                    srcset="
-                      ./images/portfolio/marketing28.jpg    1x,
-                      ./images/portfolio/marketing28@2x.jpg 2x
-                    "
-                    src="./images/portfolio/marketing28.jpg"
-                    alt="Картинка проекта Lab"
-                    width="450"
-                    height="294"
-                    class="portfolio__img"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/foto/portfolio/project8/1200/img-min.jpg    1x,
+                        ./images/foto/portfolio/project8/1200/img@2x-min.jpg 2x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/foto/portfolio/project8/768/img-min.jpg    1x,
+                        ./images/foto/portfolio/project8/768/img@2x-min.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/foto/portfolio/project8/320/img-min.jpg    1x,
+                        ./images/foto/portfolio/project8/320/img@2x-min.jpg 2x
+                      "
+                      media="(max-width: 767px)"
+                    />
+                    <img
+                      src="../images/foto/portfolio/project8/320/img-min.jpg"
+                      alt="Проєкт"
+                    />
+                  </picture>
                   <div class="portfolio__movein">
                     <p>
-                      Технокряк это современная площадка распространения
-                      коронавируса. Компании используют эту платформу для
-                      цифрового шпионажа и атак на защищённые сервера
-                      конкурентов.
+                      Ресурс пропонує комплексні пропозиції з різним рівнем
+                      функціоналу та сервісів. Все це дозволить відвідувачу
+                      отримати вичерпні відомості про компанію чи приватну
+                      особу.
                     </p>
                   </div>
                 </div>
@@ -400,29 +532,45 @@
             <li class="portfolio__item">
               <a href="" class="portfolio__link">
                 <div class="portfolio__thumb">
-                  <img
-                    srcset="
-                      ./images/portfolio/9.jpg    1x,
-                      ./images/portfolio/9@2x.jpg 2x
-                    "
-                    src="./images/portfolio/9.jpg"
-                    alt="Картинка приложения Growing Business"
-                    width="450"
-                    height="294"
-                    class="portfolio__img"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/foto/portfolio/project9/1200/img-min.jpg    1x,
+                        ./images/foto/portfolio/project9/1200/img@2x-min.jpg 2x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/foto/portfolio/project9/768/img-min.jpg    1x,
+                        ./images/foto/portfolio/project9/768/img@2x-min.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/foto/portfolio/project9/320/img-min.jpg    1x,
+                        ./images/foto/portfolio/project9/320/img@2x-min.jpg 2x
+                      "
+                      media="(max-width: 767px)"
+                    />
+                    <img
+                      src="../images/foto/portfolio/project9/320/img-min.jpg"
+                      alt="Проєкт"
+                    />
+                  </picture>
                   <div class="portfolio__movein">
                     <p>
-                      Технокряк это современная площадка распространения
-                      коронавируса. Компании используют эту платформу для
-                      цифрового шпионажа и атак на защищённые сервера
-                      конкурентов.
+                      Ресурс пропонує комплексні пропозиції з різним рівнем
+                      функціоналу та сервісів. Все це дозволить відвідувачу
+                      отримати вичерпні відомості про компанію чи приватну
+                      особу.
                     </p>
                   </div>
                 </div>
                 <div class="portfolio__cont">
                   <h2 class="portfolio__title">Growing Business</h2>
-                  <p class="portfolio__text">Приложение</p>
+                  <p class="portfolio__text">Додаток</p>
                 </div>
               </a>
             </li>
