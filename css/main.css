@@ -3,37 +3,35 @@
   background-color: var(--main-background-hooter-color);
   min-height: 400px;
   margin: auto;
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/imgoverlay.jpg);
   background-size: cover;
-  padding-top: 200px;
-  padding-bottom: 200px;
   background-repeat: no-repeat;
   background-position: center;
 }
+
 @media screen and (min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
-  .business {
+  .genere {
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/foto/geroi/320/headerimg-min.jpg);
   }
 }
 @media screen and (min-width: 768px) {
-  .business {
+  .genere {
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/foto/geroi/768/headerimg-min.jpg);
   }
 }
 @media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
-  .business {
+  .genere {
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/foto/geroi/768/headerimg@2x-min.jpg);
   }
 }
 @media screen and (min-width: 1200px) {
-  .business {
+  .genere {
     min-height: 600px;
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/foto/geroi/1200/img-min.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/foto/geroi/768/headerimg-min.jpg);
   }
 }
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
-  .business {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/foto/geroi1200/img@2x-min.jpg@2x.jpg);
+  .genere {
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/foto/geroi/768/headerimg@2x-min.jpg);
   }
 }
 
@@ -1493,37 +1491,35 @@
   background-color: var(--main-background-hooter-color);
   min-height: 400px;
   margin: auto;
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/imgoverlay.jpg);
   background-size: cover;
-  padding-top: 200px;
-  padding-bottom: 200px;
   background-repeat: no-repeat;
   background-position: center;
 }
+
 @media screen and (min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
-  .business {
+  .genere {
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/foto/geroi/320/headerimg-min.jpg);
   }
 }
 @media screen and (min-width: 768px) {
-  .business {
+  .genere {
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/foto/geroi/768/headerimg-min.jpg);
   }
 }
 @media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
-  .business {
+  .genere {
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/foto/geroi/768/headerimg@2x-min.jpg);
   }
 }
 @media screen and (min-width: 1200px) {
-  .business {
+  .genere {
     min-height: 600px;
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/foto/geroi/1200/img-min.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/foto/geroi/768/headerimg-min.jpg);
   }
 }
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
-  .business {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/foto/geroi1200/img@2x-min.jpg@2x.jpg);
+  .genere {
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/foto/geroi/768/headerimg@2x-min.jpg);
   }
 }
 
