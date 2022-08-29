@@ -142,7 +142,7 @@
       &:hover,
       &:focus {
       background-color: var(--homepage-button-color);
-      color: #ffffff;
+      color: var(--main-header-background-size);
       box-shadow: var(--shadow);
     }
 }
