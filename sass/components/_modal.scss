@@ -91,20 +91,22 @@
   justify-content: center;
   color: var(--primary-text-color);
 }
-// @media screen and (min-width: 768px) {
-//   .modal-form-check-desc {
-//     font-size: 10px;
-//   }
-// }
+
 .modal-form-check{
   font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 12px;
-    line-height: 14px;
+    font-size: 14px;
+    line-height: 1.16;
     letter-spacing: 0.03em;
     margin-bottom: 20px;
 }
+@media screen and (min-width: 768px) {
+  .modal-form-check-desc {
+    font-size: 12px;
+  }
+}
+
 
 .modal-form-check:focus~.modal-form-check-desc {
   color: var(--logo-color-blue-blue);
