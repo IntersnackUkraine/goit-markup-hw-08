@@ -180,6 +180,10 @@
 
 .modile-menu__link {
     color: #212121;
+        &:hover,
+            &:focus {
+                color: var(--logo-color-blue-blue);
+            }
     // text-decoration: none;
 }
 

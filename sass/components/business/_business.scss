@@ -4,7 +4,7 @@
   min-height: 400px;
   margin: auto;
   // background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-  // url(../images/imgoverlay.jpg);
+  // url (../images/imgoverlay.jpg);
   background-size: cover;
   // padding-top: 200px;
   // padding-bottom: 200px;
@@ -29,17 +29,17 @@
           background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/foto/geroi/768/headerimg@2x-min.jpg);
         }
       }
-            @media screen and (min-width: 1200px) {
+        @media screen and (min-width: 1200px) {
               // width: 1600px;
-              min-height: 600px;
-              background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/foto/geroi/1200/Img-1-min.jpg);
+        min-height: 600px;
+        background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/foto/geroi/1200/Img-1-min.jpg);
       
-              @media screen and (min-device-pixel-ratio: 2),
-              screen and (min-resolution: 192dpi),
-              screen and (min-resolution: 2dppx) {
-                background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/foto/geroi/1200/Img-1-min.jpg);
-              }
-            }
+        @media screen and (min-device-pixel-ratio: 2),
+        screen and (min-resolution: 192dpi),
+        screen and (min-resolution: 2dppx) {
+        background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/foto/geroi/1200/Img-1-min.jpg);
+        }
+      }
       
 
 
@@ -58,8 +58,14 @@
 }
 
 
-
-
+@media screen and (min-width: 1200px){
+    .business{
+    padding-top: 200px;
+    padding-bottom: 200px;
+    
+    margin: auto;
+}
+}
 
 .business-title {
   width: 696px;
@@ -71,10 +77,12 @@
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--main-header-background-size);
-    @media screen and (min-width: 370px) {
-        width: 370px;
+  @media screen and (min-width: 320px) {
+        width: 300px;
         font-size: 26px;
         line-height: 1.36;
+        margin: auto;
+        text-align: center;
       }
 
 
