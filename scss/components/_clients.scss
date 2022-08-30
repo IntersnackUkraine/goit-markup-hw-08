@@ -24,7 +24,7 @@
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
-  color: $color-main;
+  color: var(--main);
   margin-bottom: 30px;
 
   @media screen and (min-width: 1200px) {
@@ -46,23 +46,23 @@
     width: 170px;
   }
 
-  &> svg {
+  &>svg {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   &:hover {
-    border: 1px solid $color-link;
+    border: 1px solid var(--logo);
 
-    &> svg {
-      fill: $color-link;
+    &>svg {
+      fill: var(--logo);
     }
 
   }
-  
+
 }
 
 .clients__icon {
-  fill: $icon-social;
+  fill: var(--social);
 }
 
 .clients__item {
@@ -71,6 +71,7 @@
 
   &:last-child {
     margin-bottom: 0;
+
     @media screen and (min-width: 1200px) {
       margin-right: 0;
     }

@@ -1,5 +1,5 @@
 .footer {
-  background-color: $bg-footer;
+  background-color: var(--footer);
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -18,7 +18,7 @@
 
 .address {
   margin-top: 20px;
-  color: $color-hero;
+  color: var(--size);
 }
 
 .address__list {
@@ -28,7 +28,7 @@
 }
 
 .footer__logo {
-  color: $color-hero;
+  color: var(--size);
 }
 
 .address__link {
@@ -60,7 +60,7 @@
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: $color-hero;
+  color: var(--size);
   margin-bottom: 20px;
 
   @media screen and (min-width: 1200px) {
@@ -96,12 +96,12 @@
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   &:hover {
-    background-color: $color-link;
+    background-color: var(--logo);
   }
 }
 
 .join__icon {
-  fill: $color-hero;
+  fill: var(--size);
 }
 
 .join {
@@ -139,7 +139,7 @@
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: $color-hero;
+  color: var(--size);
   margin-bottom: 20px;
 
   @media screen and (min-width: 1200px) {
@@ -151,7 +151,7 @@
   width: 100%;
   margin-bottom: 20px;
   font-size: 16px;
-  background-color: $bg-footer;
+  background-color: var(--footer);
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
   padding: 15px 16px;
@@ -168,7 +168,7 @@
   }
 
   &:focus {
-    border: 1px solid #ffffff;
+    border: 1px solid var(--size);
   }
 
   @media screen and (min-width: 1200px) {
@@ -187,8 +187,8 @@
   line-height: 1.88;
   padding: 10px 29px;
   letter-spacing: 0.06em;
-  color: $color-hero;
-  background-color: $color-link;
+  color: var(--size);
+  background-color: var(--logo);
   border: none;
   border-radius: 4px;
   cursor: pointer;
@@ -197,5 +197,5 @@
 
 .distribution__icon {
   margin-left: 10px;
-  fill: $color-hero;
+  fill: var(--size);
 }

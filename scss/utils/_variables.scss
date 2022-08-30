@@ -1,19 +1,20 @@
-$color-link: #2196F3;
-$color-button: #188CE8;
-$color-logo: #000000;
-$color-main: #212121;
-$color-secondary: #757575;
-$color-hero: #ffffff;
-$bg-hero: #2F303A;
-$bg-section: #F5F4FA;
-$bg-footer: #2F303A;
-$icon-social: #AFB1B8;
-$header-border: #ECECEC;
+:root {
+  --logo: #2196F3;
+  --button: #188CE8;
+  --border: #000000;
+  --main: #212121;
+  --secondary: #757575;
+  --size: #ffffff;
+  --section-one: #2F303A;
+  --sec-button: #F5F4FA;
+  --social: #AFB1B8;
+  --header-border: #ECECEC;
+}
 
 body {
   font-family: "Roboto", sans-serif;
   line-height: 1.2;
-  background-color: $color-hero;
+  background-color: var(--size);
 }
 
 body.modal-open {

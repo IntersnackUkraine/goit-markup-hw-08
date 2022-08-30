@@ -1,3 +1,17 @@
+:root {
+  --logo: #2196F3;
+  --button: #188CE8;
+  --border: #000000;
+  --main: #212121;
+  --secondary: #757575;
+  --size: #ffffff;
+  --section-one: #2F303A;
+  --sec-button: #F5F4FA;
+  --footer: #2F303A;
+  --social: #AFB1B8;
+  --header-border: #ECECEC;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   line-height: 1.2;
@@ -1081,7 +1095,7 @@ img {
 }
 
 .footer {
-  background-color: #2F303A;
+  background-color: var(--footer);
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -1111,7 +1125,7 @@ img {
 }
 
 .footer__logo {
-  color: #ffffff;
+  color: var(--size);
 }
 
 .address__link {
@@ -1145,7 +1159,7 @@ img {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--size);
   margin-bottom: 20px;
 }
 @media screen and (min-width: 1200px) {
@@ -1181,11 +1195,11 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .join__link:hover {
-  background-color: #2196F3;
+  background-color: var(--logo);
 }
 
 .join__icon {
-  fill: #ffffff;
+  fill: var(--size);
 }
 
 .join {
@@ -1225,7 +1239,7 @@ img {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--size);
   margin-bottom: 20px;
 }
 @media screen and (min-width: 1200px) {
@@ -1238,7 +1252,7 @@ img {
   width: 100%;
   margin-bottom: 20px;
   font-size: 16px;
-  background-color: #2F303A;
+  background-color: var(--footer);
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
   padding: 15px 16px;
@@ -1254,7 +1268,7 @@ img {
   color: rgba(255, 255, 255, 0.6);
 }
 .distribution__input:focus {
-  border: 1px solid #ffffff;
+  border: 1px solid var(--size);
 }
 @media screen and (min-width: 1200px) {
   .distribution__input {
@@ -1273,8 +1287,8 @@ img {
   line-height: 1.88;
   padding: 10px 29px;
   letter-spacing: 0.06em;
-  color: #ffffff;
-  background-color: #2196F3;
+  color: var(--size);
+  background-color: var(--logo);
   border: none;
   border-radius: 4px;
   cursor: pointer;
@@ -1283,7 +1297,7 @@ img {
 
 .distribution__icon {
   margin-left: 10px;
-  fill: #ffffff;
+  fill: var(--size);
 }
 
 .advantages__title,
